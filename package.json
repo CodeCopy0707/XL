@@ -1,0 +1,32 @@
+{
+  "name": "gemini-api-server",
+  "version": "1.0.0",
+  "description": "Gemini 2.x REST API with chat and agent endpoints + rate limit support",
+  "main": "gemini-api.js",
+  "scripts": {
+    "start": "node gemini-api.js",
+    "dev": "nodemon gemini-api.js"
+  },
+  "keywords": [
+    "gemini",
+    "rest",
+    "api",
+    "google",
+    "express",
+    "chatbot",
+    "ai-agent"
+  ],
+  "author": "Sunny",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.3",
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
